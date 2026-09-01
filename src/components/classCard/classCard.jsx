@@ -1,13 +1,15 @@
 import style from './classCard.module.scss';
-
-export function ClassCard({imgUrl, className, rating}) {
+import { Link } from 'react-router';
+export function ClassCard({ imgUrl, className, rating, id }) {
 
 
     return (
         <div className={style.classCardStyle}>
-        <img src={`http://localhost:3000${imgUrl}`} alt="" />
-        <p>{className}</p>
-        {/* <p>{rating}</p> */}
+            <Link to={'/home/' + id}>
+                <img src={`http://localhost:3000${imgUrl}`} alt="" />
+            </Link>
+            <p>{className}</p>
+            {/* <p>{rating}</p> */}
         </div>
     )
 }

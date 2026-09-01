@@ -1,0 +1,30 @@
+@use '../../style/globals.scss';
+
+.detailStyle {
+    h2 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 500;
+    }
+
+    h3{
+        font-family: "Marvel", sans-serif;
+        font-weight: 800;
+    }
+
+    p{
+        font-family: "Marvel", sans-serif;
+        
+    }
+}
+
+.timeStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.trainerStyle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

@@ -1,4 +1,9 @@
-.classcontainer{
+.classStyle {
+    font-family: "Marvel", sans-serif;
+    font-weight: 600;
+}
+
+.classcontainer {
     display: flex;
     flex-direction: row;
     overflow-y: auto;
