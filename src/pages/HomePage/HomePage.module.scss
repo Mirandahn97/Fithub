@@ -1,0 +1,31 @@
+@use '../../style/globals.scss';
+
+.divStyle {
+    padding-top: 40px;
+
+    h2 {
+        justify-self: center;
+        font-family: "Marvel", sans-serif;
+        font-weight: 600;
+    }
+
+    img {
+        display: block;
+        justify-self: center;
+        object-fit: cover;
+        width: 95%;
+        border-radius: 10px;
+    
+
+    }
+
+    p{
+        font-family: "Marvel", sans-serif;
+        font-size: 35px;
+        font-weight: 600;
+        color: globals.$color_white;
+        position: absolute;
+        top: 32%;
+        left: 12%;
+    }
+}

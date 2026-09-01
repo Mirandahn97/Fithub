@@ -14,3 +14,38 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the Oxlint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+
+
+
+Rapport:
+
+
+To do:
+Mandag:
+    -Få lavet et fecht hook.
+    -Få lavet globals.
+    -Få lavet landingpagen.
+    -Få lavet en navigation.
+    -få lavet tilbageknap.
+    -Få påbegyndt homepagen med hold.
+Tirsdag:
+    -Få færdig gjortdt homepagen med hold.
+    -Få lavet en søgefunktion.
+    -Få påbegyndt detaljesiden over forskellige hold.
+Onsdag:
+    -Få færdig gjort detaljesiden over forskellige hold.
+    -Få lavet login funktionnen.
+Torsdag:
+    -Få lavet MyScedual siden.
+    -Få lavet den valgfrie opgave.
+        -Endten rating eller opret brugerfunktion. 
+Fredag:
+    -Få færdiggjort evt hænge partier, og finpusset appen. 
+
+
+Mandag d. 31/8/26
+ Jeg har fået lavet landingpagen, samt det meste af home pagen.
+ Start træning kanppen virker som den skal og det samme gør tilbage knappen.
+ Jeg mangler stadig at lave lidt i min menu, men det satser jeg på jeg nok skal få nået. 
+ Min fetch fungere som den skal.
+ Jeg har også fået lavet globals.

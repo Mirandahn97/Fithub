@@ -1,0 +1,22 @@
+@use '../../style/globals.scss';
+
+.navStyle {
+    display: flex;
+
+    ul {
+        padding: 40vw;
+
+        li {
+            list-style: none;
+            padding-bottom: 15px;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: globals.$color_black;
+            font-size: 25px;
+
+        }
+    }
+}
