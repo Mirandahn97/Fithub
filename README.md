@@ -30,16 +30,16 @@ Mandag:
     -Få påbegyndt homepagen med hold.
 Tirsdag:
     -Få færdig gjortdt homepagen med hold.
-    -Få lavet en søgefunktion.
     -Få påbegyndt detaljesiden over forskellige hold.
 Onsdag:
     -Få færdig gjort detaljesiden over forskellige hold.
     -Få lavet login funktionnen.
 Torsdag:
     -Få lavet MyScedual siden.
+    -Få lavet en søgefunktion.
+Fredag:
     -Få lavet den valgfrie opgave.
         -Endten rating eller opret brugerfunktion. 
-Fredag:
     -Få færdiggjort evt hænge partier, og finpusset appen. 
 
 
@@ -49,3 +49,10 @@ Mandag d. 31/8/26
  Jeg mangler stadig at lave lidt i min menu, men det satser jeg på jeg nok skal få nået. 
  Min fetch fungere som den skal.
  Jeg har også fået lavet globals.
+
+
+ Tirsdag d. 1/9/26
+ Jeg fik færdig gjort homepagen  samt påbegyndt detaljesiden. 
+
+ Onsdag d. 2/9/26
+ Detalje siden er mere eller indre færdig. Jeg er så småt påbegyndt på at lave login og my scedule.

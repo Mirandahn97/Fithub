@@ -7,6 +7,7 @@ import aerobics from '../../assets/class-aerobics.jpg'
 
 export function HomePage() {
 
+    // This endpoint returns the classes displayed in the "Classes for you" section.
     const url = 'http://localhost:3000/api/teams'
 
     const { data, isloading, error } = useFetch(url)
@@ -21,6 +22,7 @@ export function HomePage() {
                 <img src={aerobics} alt="" />
                 <p>Aerobics</p>
             </div>
+            {/* data is passed down as a prop; it is undefined until the request finishes. */}
             <ClassesForYou classData={data}></ClassesForYou>
 
         </>

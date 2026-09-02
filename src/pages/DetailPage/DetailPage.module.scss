@@ -1,29 +1,42 @@
 @use '../../style/globals.scss';
 
 .detailStyle {
+
+    img {
+        display: block;
+        object-fit: cover;
+        width: 100%;
+    }
+
     h2 {
         font-family: "Open Sans", sans-serif;
         font-weight: 500;
     }
 
-    h3{
+    h3 {
         font-family: "Marvel", sans-serif;
         font-weight: 800;
     }
 
-    p{
+    p {
         font-family: "Marvel", sans-serif;
-        
+
+    }
+    .trainerImgStyle {
+        display: block;
+        object-fit: cover;
+        width: 50%;
+        border-radius: 7px;
     }
 }
 
-.timeStyle{
+.timeStyle {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.trainerStyle{
+.trainerStyle {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
