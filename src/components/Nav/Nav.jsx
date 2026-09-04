@@ -1,11 +1,14 @@
 import { NavLink } from "react-router"
+import { Login } from "../Login/Login";
 import { useAuth } from "../../providers/auth.provider"
 import style from './Nav.module.scss'
 
 export function Nav() {
 
-    const { loginData } = useAuth();
+    const { loginData, logout } = useAuth();
     console.log(loginData)
+
+
 
 
     return (
@@ -20,14 +23,15 @@ export function Nav() {
                     </li>
                     {!loginData ?
                         <li>
-                            <NavLink to='/login'>Login</NavLink>
+                            <h2>Login</h2>
+                            <Login></Login>
                         </li>
                         : <>
                             <li>
                                 <NavLink to='/login'>My Schedule</NavLink>
                             </li>
                             <li>
-                                <NavLink to='/login'>Log out</NavLink>
+                                <button onClick={logout}>Log out</button>
                             </li>
                         </>
                     }

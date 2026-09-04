@@ -56,3 +56,7 @@ Mandag d. 31/8/26
 
  Onsdag d. 2/9/26
  Detalje siden er mere eller indre færdig. Jeg er så småt påbegyndt på at lave login og my scedule.
+
+ Torsdag d. 3/9/26
+ Jeg fik mit login op at køre, med hjælp, men har fået en hel del ud af at lave det med Kasper. 
+ 

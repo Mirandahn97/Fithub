@@ -9,7 +9,6 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-      {/* The URL decides which page React renders. */}
       <Route path='/' element={<LandingPage/>}></Route>
       <Route path='/home' element={<HomePage/>}></Route>
       {/* :id is a dynamic URL value, for example /home/3. */}
